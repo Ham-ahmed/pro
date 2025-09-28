@@ -119,7 +119,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-tar -xzf MagicPanel_v6-main.tar.gz
+tar -xzf MagicPanelpro-main.tar.gz
 if [ $? -ne 0 ]; then
     echo "Extraction failed!"
     exit 1
