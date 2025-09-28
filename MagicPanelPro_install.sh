@@ -1,5 +1,5 @@
 #!/bin/bash
-##setup command=wget -q "--no-check-certificate" "wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelpro_install.sh -O - | /bin/sh
+##setup command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelpro_install.sh -O - | /bin/sh
 
 ######### Only This line to edit with new version ######
 version='6.1'
