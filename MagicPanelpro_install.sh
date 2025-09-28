@@ -5,7 +5,7 @@
 version='6.1'
 ##############################################################
 
-TMPPATH=/tmp/MagicPanel
+TMPPATH=/tmp/MagicPanelPro
 GITHUB_RAW="https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main"
 
 if [ ! -d /usr/lib64 ]; then
@@ -28,10 +28,10 @@ check_for_updates() {
         echo ""
         echo "#########################################################"
         echo "#                  NEW VERSION AVAILABLE                #"
-        echo "#               Current version: $version               #"
-        echo "#            Latest version: $LATEST_VERSION            #"
+        echo "#                  Current version: $version                  #"
+        echo "#                  Latest version: $LATEST_VERSION                  #"
         echo "#        Please download the latest version from:       #"
-        echo "#         https://github.com/Ham-ahmed/pro/main         #"
+        echo "#    https://github.com/Ham-ahmed/pro/main         #"
         echo "#########################################################"
         echo ""
         echo "> Press Ctrl+C to cancel and download the latest version"
