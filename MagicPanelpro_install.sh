@@ -28,10 +28,10 @@ check_for_updates() {
         echo ""
         echo "#########################################################"
         echo "#                  NEW VERSION AVAILABLE                #"
-        echo "#                  Current version: $version                  #"
-        echo "#                  Latest version: $LATEST_VERSION                  #"
+        echo "#            Current version: $version                  #"     
+        echo "#         Latest version: $LATEST_VERSION               #"
         echo "#        Please download the latest version from:       #"
-        echo "#    https://github.com/Ham-ahmed/pro/main         #"
+        echo "#         https://github.com/Ham-ahmed/pro/main         #"
         echo "#########################################################"
         echo ""
         echo "> Press Ctrl+C to cancel and download the latest version"
@@ -113,7 +113,7 @@ else
     echo ""
 fi
 
-wget https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelpro_v6.1-main.tar.gz
+wget https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelpro-main.tar.gz
 if [ $? -ne 0 ]; then
     echo "Download failed!"
     exit 1
