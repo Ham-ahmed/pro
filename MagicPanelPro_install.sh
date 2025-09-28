@@ -176,21 +176,21 @@ fi
 echo ""
 
 # Download the plugin
-if ! wget -q "--no-check-certificate" "${GITHUB_BASE}/MagicPanelPro-main.tar.gz"; then
+if ! wget -q "--no-check-certificate" "${GITHUB_BASE}/MagicPanelPro_v6.1.tar.gz"; then
     print_message $RED "> Download failed!"
     exit 1
 fi
 
 # Extract the plugin
 print_message $BLUE "> Extracting plugin..."
-if ! tar -xzf "MagicPanelPro-main.tar.gz"; then
+if ! tar -xzf "MagicPanelPro_v6.1.tar.gz"; then
     print_message $RED "> Extraction failed!"
     exit 1
 fi
 
 # Install the plugin
 print_message $BLUE "> Installing plugin..."
-if [ -d "MMagicPanelPro-main/usr" ]; then
+if [ -d "MagicPanelPro-main/usr" ]; then
     cp -r "MagicPanelPro-main/usr" "/"
 else
     print_message $RED "> Plugin directory structure incorrect!"
