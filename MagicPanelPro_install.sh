@@ -2,7 +2,7 @@
 ##setup command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelPro_install.sh -O - | /bin/sh
 
 ######### Only This line to edit with new version ######
-version='6.1'
+version='6.2'
 ##############################################################
 
 TMPPATH=/tmp/MagicPanelPro
