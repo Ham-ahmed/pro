@@ -2,8 +2,9 @@ json
 {
   "changes": [
     "xklass plugin تحديث",
-    " xstreamity plugin تحديث",
-    " estalker plugin تحديث",
+    "xstreamity plugin تحديث",
+    "estalker plugin تحديث",
+	"vavoo plugin تحديث",
 	
     "إضافة دعم للإصدارات الجديدة من Python"
   ],
