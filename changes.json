@@ -1,8 +1,10 @@
 json
 {
   "changes": [
-    "إصلاح مشكلة في تحميل السكينس",
-    "تحسين أداء تحميل القنوات",
+    "xklass plugin تحديث",
+    " xstreamity plugin تحديث",
+    " estalker plugin تحديث",
+	
     "إضافة دعم للإصدارات الجديدة من Python"
   ],
   "new_features": [
