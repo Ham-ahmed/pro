@@ -4,9 +4,6 @@ import json
 json_str = '''
 {
   "changes": [
-    "xklass plugin تحديث",
-    "xstreamity plugin تحديث", 
-    "estalker plugin تحديث",
     "vavoo plugin تحديث",
     "إضافة دعم للإصدارات الجديدة من Python"
   ],
@@ -16,3 +13,4 @@ json_str = '''
     "دعم المزيد من مشغلات IPTV"
   ]
 }
+
