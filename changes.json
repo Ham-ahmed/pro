@@ -4,6 +4,7 @@ import json
 json_str = '''
 {
   "changes": [
+    "estalker_1.14 plugin تحديث",
     "freeserver_1.8 plugin تحديث",
     "oscamicamall_V.10.0 plugin تحديث",
     "raedquicksignal_18.0 plugin تحديث",
@@ -15,5 +16,6 @@ json_str = '''
     "دعم المزيد من مشغلات IPTV"
   ]
 }
+
 
 
