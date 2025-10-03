@@ -1,12 +1,13 @@
-# اختبار الملف
-json_str = '''
+```json
 {
   "changes": [
-    "إضافة دعم للإصدارات الجديدة من Python"
+    "إضافة دعم للإصدارات الجديدة من Python",
+    "تحسين استقرار النظام",
+    "إصلاح مشاكل الذاكرة"
   ],
   "new_features": [
     "estalker_1.14 plugin تحديث",
-    "freeserver_1.8 plugin تحديث",
+    "freeserver_1.8 plugin تحديث", 
     "oscamicamall_V.10.0 plugin تحديث",
     "raedquicksignal_18.0 plugin تحديث",
     "jedimakerxtream_3.03 plugin تحديث",
@@ -19,6 +20,7 @@ json_str = '''
     "دعم المزيد من مشغلات IPTV"
   ]
 }
+
 
 
 
