@@ -1,9 +1,9 @@
 ```json
 {
   "changes": [
-    "إضافة دعم للإصدارات الجديدة من Python",
-    "تحسين استقرار النظام",
-    "إصلاح مشاكل الذاكرة"
+    "subssupport_1.8.0-r1 plugin تحديث",
+    "xstreamity_5.15 plugin تحديث",
+    "footonsat_2.2 plugin تحديث",
   ],
   "new_features": [
     "estalker_1.14 plugin تحديث",
@@ -12,14 +12,9 @@
     "raedquicksignal_18.0 plugin تحديث",
     "jedimakerxtream_3.03 plugin تحديث",
     "temperaturmonitor_2.0 plugin تحديث",
-    "subssupport_1.8.0-r1 plugin تحديث",
-    "xstreamity_5.15 plugin تحديث",
-    "footonsat_2.2 plugin تحديث",
-    "نظام التحديث التلقائي",
-    "واجهة مستخدم محسنة",
-    "دعم المزيد من مشغلات IPTV"
   ]
 }
+
 
 
 
