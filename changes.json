@@ -4,18 +4,24 @@ import json
 json_str = '''
 {
   "changes": [
+    "إضافة دعم للإصدارات الجديدة من Python"
+  ],
+  "new_features": [
     "estalker_1.14 plugin تحديث",
     "freeserver_1.8 plugin تحديث",
     "oscamicamall_V.10.0 plugin تحديث",
     "raedquicksignal_18.0 plugin تحديث",
-    "إضافة دعم للإصدارات الجديدة من Python"
-  ],
-  "new_features": [
+    "jedimakerxtream_3.03 plugin تحديث",
+    "temperaturmonitor_2.0 plugin تحديث",
+    "subssupport_1.8.0-r1 plugin تحديث",
+    "xstreamity_5.15 plugin تحديث",
+    "footonsat_2.2 plugin تحديث",
     "نظام التحديث التلقائي",
     "واجهة مستخدم محسنة",
     "دعم المزيد من مشغلات IPTV"
   ]
 }
+
 
 
 
