@@ -1,21 +1,16 @@
 ```json
 {
   "changes": [
-    "subssupport_1.8.0-r1 plugin تحديث",
-    "xstreamity_5.15 plugin تحديث",
-    "footonsat_2.2 plugin تحديث"
+    "تحسين نظام التحديث التلقائي",
+    "تحسين أداء واجهة المستخدم",
+    "إصلاح مشاكل الاستقرار",
+    "تحسين تجربة المستخدم العامة"
   ],
   "new_features": [
-                "subssupport_1.8.0-r1 plugin تحديث",
-                "xstreamity_5.15 plugin تحديث", 
-                "footonsat_2.2 plugin تحديث",
-                "estalker_1.14 plugin تحديث", 
-                "freeserver_1.8 plugin تحديث",
-                "oscamicamall_V.10.0 plugin تحديث",
-                "raedquicksignal_18.0 plugin تحديث", 
-                "jedimakerxtream_3.03 plugin تحديث"
+                "e2iplayer plugin   تحديث سورس mirorr",
   ]
 }
+
 
 
 
