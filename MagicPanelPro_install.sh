@@ -213,7 +213,7 @@ sync
 echo ""
 print_message $GREEN "==================================================================="
 print_message $GREEN "===                    INSTALLED SUCCESSFULLY                   ==="
-printf "${GREEN}===                        MagicPanelPro v%-24s===${NC}\n" "$version"
+printf "${GREEN}===                 MagicPanelPro v%-24s===${NC}\n" "$version"
 print_message $GREEN "===                Enigma2 restart is required                  ==="
 print_message $GREEN "===              UPLOADED BY  >>>>   HAMDY_AHMED                ==="
 print_message $GREEN "==================================================================="
