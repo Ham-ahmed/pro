@@ -2,7 +2,7 @@
 ##setup command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ham-ahmed/pro/refs/heads/main/MagicPanelPro_install.sh -O - | /bin/sh
 
 ######### Only This line to edit with new version ######
-version='6.4.6'
+version='6.4.7'
 ##############################################################
 
 TMPPATH=/tmp/MagicPanelPro
@@ -176,14 +176,14 @@ fi
 echo ""
 
 # Download the plugin
-if ! wget -q "--no-check-certificate" "${GITHUB_BASE}/MagicPanelPro_v6.1.tar.gz"; then
+if ! wget -q "--no-check-certificate" "${GITHUB_BASE}/MagicPanelPro_v6.4.tar.gz"; then
     print_message $RED "> Download failed!"
     exit 1
 fi
 
 # Extract the plugin
 print_message $BLUE "> Extracting plugin..."
-if ! tar -xzf "MagicPanelPro_v6.1.tar.gz"; then
+if ! tar -xzf "MagicPanelPro_v6.4.tar.gz"; then
     print_message $RED "> Extraction failed!"
     exit 1
 fi
