@@ -49,13 +49,13 @@ check_for_updates() {
     
     if [ "$version" != "$LATEST_VERSION" ]; then
         echo ""
-        print_message $YELLOW "####################################################"
-        print_message $YELLOW "#             NEW VERSION AVAILABLE                #"
-        printf "${YELLOW}#          Current version: %-23s#${NC}\n" "$version      "
-        printf "${YELLOW}#       Latest version: %-24s#${NC}\n" "$LATEST_VERSION   "     
-        print_message $YELLOW "#    Please download the latest version from:      #"
-        print_message $YELLOW "#  https://github.com/Ham-ahmed/magic/tree/main    #"
-        print_message $YELLOW "####################################################"
+        print_message $GREEN "####################################################"
+        print_message $BLUE "#              NEW VERSION AVAILABLE                #"
+        printf "${YELLOW}#       Current version: %-23s#${NC}\n" "$version        "
+        printf "${BLUE}#       Latest version: %-24s#${NC}\n" "$LATEST_VERSION    "     
+        print_message $YELLOW "#    Please download the latest version from:     #"
+        print_message $BLUE "#   https://github.com/Ham-ahmed/magic/tree/main    #"
+        print_message $GREEN "####################################################"
         echo ""
         print_message $YELLOW "> Press Ctrl+C to cancel and download the latest version"
         print_message $YELLOW "> Continuing with current version in 10 seconds..."
@@ -211,17 +211,17 @@ sync
 
 # Success message
 echo ""
-print_message $GREEN "==================================================================="
-print_message $GREEN "===                    INSTALLED SUCCESSFULLY                   ==="
+print_message $YELLOW "==================================================================="
+print_message $BLUE "===                    INSTALLED SUCCESSFULLY                     ==="
 printf "${GREEN}===                 MagicPanelPro v%-24s===${NC}\n" "$version"
-print_message $GREEN "===                Enigma2 restart is required                  ==="
-print_message $GREEN "===              UPLOADED BY  >>>>   HAMDY_AHMED                ==="
-print_message $GREEN "==================================================================="
+print_message $BLUE "===                Enigma2 restart is required                    ==="
+print_message $GREEN "===              UPLOADED BY  >>>>   HAMDY_AHMED                 ==="
+print_message $YELLOW "==================================================================="
 
 sleep 2
-print_message $YELLOW "==================================================================="
-print_message $YELLOW "===                        Restarting                           ==="
-print_message $YELLOW "==================================================================="
+print_message $GREEN "==================================================================="
+print_message $YELLOW "===                        Restarting                          ==="
+print_message $GREEN "==================================================================="
 
 sleep 5
 # Restart enigma2
